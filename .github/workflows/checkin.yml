@@ -2,7 +2,6 @@ name: AnyRouter 自动签到
 on:
   schedule:
     - cron: '6 12 * * *'
-      timezone: "Asia/Shanghai"
   workflow_dispatch:
 
 jobs:
